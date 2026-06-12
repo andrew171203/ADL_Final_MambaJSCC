@@ -6,6 +6,8 @@ This repository contains the code submission for the final project:
 
 The project is built upon the open-source SwinJSCC codebase and adapts it for semantic image communication / deep joint source-channel coding (JSCC). The main goal is to explore a Mamba/VSSB-based JSCC architecture and a lightweight receiver-side diffusion refiner for image reconstruction under noisy wireless channels.
 
+For a more detailed summary of the code-level changes from the original SwinJSCC repository, please refer to [`MODIFICATIONS.md`](MODIFICATIONS.md).
+
 ---
 
 ## 1. Project overview
@@ -140,15 +142,9 @@ https://r0k.us/graphics/kodak/
 
 ## 6. Checkpoints
 
-Checkpoint files are not included in this GitHub repository because they are large binary files.
+Checkpoint files are not included in this GitHub repository because they are large files.
 
-Please download the checkpoints from the external Google Drive folder below and place them in the `history/` directory.
-
-Checkpoint download link:
-
-```text
-https://drive.google.com/drive/folders/1yHd55HKqtY3SvqRFq3qTU0iYXCOPgQeW?usp=sharing
-```
+Please download the checkpoints from the [Google Drive](https://drive.google.com/drive/folders/1yHd55HKqtY3SvqRFq3qTU0iYXCOPgQeW?usp=sharing) and place them in the `history/` directory.
 
 Expected checkpoint structure:
 
