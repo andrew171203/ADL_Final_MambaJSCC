@@ -1,0 +1,25 @@
+name: swin_mamba
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - numpy
+  - pillow
+  - pip:
+      - timm
+      - einops
+      - fvcore
+      - diffusers==0.38.0
+      - safetensors
+      - accelerate
+      - packaging
+      - wheel
+      - ninja
+      - matplotlib

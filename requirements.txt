@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+Pillow
+timm
+einops
+fvcore
+diffusers==0.38.0
+safetensors
+accelerate
+packaging
+wheel
+ninja
+matplotlib

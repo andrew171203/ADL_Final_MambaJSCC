@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE files
+.idea/
+.vscode/
+
+# Training artifacts and large files
+models/
+checkpoints/*.model
+checkpoints/*.pth
+checkpoints/*.pt
+history/*.model
+history/*.pth
+history/*.pt
+history/**/*.model
+history/**/*.pth
+history/**/*.pt
+*.model
+*.pth
+*.pt
+
+# Datasets
+DIV2K*/
+Kodak*/
+datasets/
+data/DIV2K*/
+data/Kodak*/
+
+# Logs generated during new runs
+*.log
+!results/*.log
+
+# Native build products
+build/
+dist/
+*.egg-info/
+*.so
+history/*.model
+*.pth
+*.pt
+__pycache__/
+.pytest_cache/
+.idea/
